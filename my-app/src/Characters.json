@@ -1,129 +1,93 @@
 [
   {
     "id": 1,
-    "name": "Baby Yoda",
-    "image": "http://www.pngmart.com/files/11/Baby-Yoda-PNG-HD.png",
-    "occupation": "Jedi Master",
-    "location": "Everywhere"
+    "image": "http://www.pngmart.com/files/11/Baby-Yoda-PNG-HD.png"
+
   },
   {
     "id": 2,
-    "name": "Robot",
-    "image": "http://www.pngmart.com/files/11/BB-8-Robot-PNG-HD.png",
-    "occupation": "Assistent",
-    "location": "Junk Yard"
+    "image": "http://www.pngmart.com/files/11/BB-8-Robot-PNG-HD.png"
+
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-File.png",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-File.png"
+
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Photos.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Photos.png"
+
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Image.png",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Image.png"
+
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-Ship-PNG-Photos.png",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-Ship-PNG-Photos.png"
+
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Clipart.png",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Clipart.png"
+
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-Logo-PNG-File.png",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-Logo-PNG-File.png"
+
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "http://www.pngmart.com/files/2/Luke-Skywalker-Transparent-PNG.png",
-    "occupation": "Adventurer",
-    "location": "California"
+    "image": "http://www.pngmart.com/files/2/Luke-Skywalker-Transparent-PNG.png"
+
   },
   {
     "id": 10,
-    "name": "Baby Yoda",
-    "image": "http://www.pngmart.com/files/11/Baby-Yoda-PNG-HD.png",
-    "occupation": "Jedi Master",
-    "location": "Everywhere"
+  
+    "image": "http://www.pngmart.com/files/11/Baby-Yoda-PNG-HD.png"
+
+  },
+  {
+    "id": 11,
+    "image": "http://www.pngmart.com/files/11/BB-8-Robot-PNG-HD.png"
+  
   },
   {
     "id": 12,
-    "name": "Robot",
-    "image": "http://www.pngmart.com/files/11/BB-8-Robot-PNG-HD.png",
-    "occupation": "Assistent",
-    "location": "Junk Yard"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-File.png"
+
   },
   {
     "id": 13,
-    "name": "Squidward",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-File.png",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Photos.png"
+
   },
   {
     "id": 14,
-    "name": "Dexter",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Photos.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Image.png"
   },
   {
     "id": 15,
-    "name": "Courage",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Image.png",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-Ship-PNG-Photos.png"
   },
   {
     "id": 16,
-    "name": "Doug Funnie",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-Ship-PNG-Photos.png",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Clipart.png"
+
   },
   {
+
     "id": 17,
-    "name": "Bugs Bunny",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-PNG-Clipart.png",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "image": "http://www.pngmart.com/files/3/Star-Wars-Logo-PNG-File.png"
+
   },
   {
     "id": 18,
-    "name": "Johnny Bravo",
-    "image": "http://www.pngmart.com/files/3/Star-Wars-Logo-PNG-File.png",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
-  },
-  {
-    "id": 19,
-    "name": "Tommy Pickles",
-    "image": "http://www.pngmart.com/files/2/Luke-Skywalker-Transparent-PNG.png",
-    "occupation": "Adventurer",
-    "location": "California"
-  }
+    "image": "http://www.pngmart.com/files/2/Luke-Skywalker-Transparent-PNG.png"
 
+  }
 ]
+
