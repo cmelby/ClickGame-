@@ -6,7 +6,7 @@ The Click Game is a simple pattern recognition game where the user starts by cli
 
 
 ## Demo
-![Site]() 
+![Site](my-app/Assets/demo.gif) 
 
  
 ## Technologies Used

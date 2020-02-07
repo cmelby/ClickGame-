@@ -55,7 +55,7 @@ render() {
           score={this.state.score}
           topScore={this.state.topScore}
       />
-      <Title>Don't Click The Same Card Twice</Title>
+      <Title>Don't Click The Same Celeb Twice</Title>
     <Wrapper>
       {this.state.Characters.map((val) => {
         return <CharacterCard
