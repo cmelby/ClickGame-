@@ -1,81 +1,52 @@
-# Clicky Game
+# Click Game
 
-## Overview
 
-For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+## Summary 
+The Click Game is a simple pattern recognition game where the user starts by clicking on one of the card, then proceeds to select different cards each time. The longer and more clicks the user initiates without clicking the same card the more points the user will get. Once the user selects the same card consecutively, their score goes back to zero. This game was built using a react front end that shuffles components on the page after each click by the user. 
 
-### Commits
 
-Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
+## Demo
+![Site]() 
 
-* Committing often is a signal to employers that you are actively working on your code and learning.
+ 
+## Technologies Used
+- React: Used to dynamically render components on browser and initiate functionality of the game based on user inputs.
+- Git - Version control system to track changes to source code.
+- GitHub - Hosts repository that can be deployed to GitHub Pages.
+ 
+## Code Snippet
+Thee belwo code snippet is our Character Card component that we are exporting to be used in our App.js. This component is responsible for creating the structure that then will be used to place the parsed data from our json in order to send the correct piceses of information to the browser. React makes mogularity very efficient in this way by enabling these components, which are very similar to constructors to be imported and implement other places in our code. However it's important to note that "props" can only be handed down, not upwards when creating our components. 
 
-  * We use the mantra “commit early and often.”  This means that when you write code that works, add it and commit it!
+```js
 
-  * Numerous commits allow you to see how your app is progressing and give you a point to revert to if anything goes wrong.
+import React from "react";
+import "./style.css";
 
-* Be clear and descriptive in your commit messaging.
+function CharacterCard(props) {
+  return (
+    <div className="card">
+      <div className="img-container">
+        <img alt={props.id} src={props.image} 
+        onClick={()=> props.clickHandler(props.id)}/>
+      </div>
+    </div>
+  );
+}
 
-  * When writing a commit message, avoid vague messages like "fixed." Be descriptive so that you and anyone else looking at your repository knows what happened with each commit.
+export default CharacterCard;
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+});
+```
 
-### Submission on BCS
+## Built With
+* [React](https://reactjs.org/docs/getting-started.html)
+* [Reactbootstrap](https://www.npmjs.com/package/react-bootstrap)
+* [npmjs](https://docs.npmjs.com/)
+* [inquirer](https://www.npmjs.com/package/inquirer)
 
-* **This assignment must be deployed.** * Please submit both the deployed GitHub Pages link to your homework AND the link to the Github Repository!
+## Authors
 
-### Instructions
-
-1. Check out the [example solution](https://clicky-game.netlify.com/) and study the app's basic functionality.
-
-2. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
-
-3. The application should render different images (of your choice) to the screen. Each image should listen for click events.
-
-4. The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
-
-5. Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
-
-6. Once the user's score is reset after an incorrect guess, the game should restart.
-
-7. When complete, the application should be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
-
-- - -
-
-#### Minimum Requirements
-
-* **This assignment must be deployed.** Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Github Pages and adding a README.md are required for this homework. In addition, add this homework to your portfolio. More information can be found below.
-
-- - -
-
-#### Hints
-
-* Begin by building a non-functioning static version for your Clicky Game. Then work on making the game interactive.
-
-### Reminder: Submission on BCS
-
-* Please submit both the deployed GitHub Pages link to your homework AND the link to the Github Repository!
-
-- - -
-
-### Create a README.md
-
-Add a `README.md` to your repository describing the project. Here are some resources for creating your `README.md`. Here are some resources to help you along the way:
-
-* [About READMEs](https://help.github.com/articles/about-readmes/)
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
-- - -
-
-### Add To Your Portfolio
-
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-
-- - -
-
-#### One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-**Good Luck!**
+**Chris Melby**
+- [LinkedIn](https://www.linkedin.com/in/chris-melby-71106b126/)
+- [Link to Github](https://github.com/cmelby)
+- [Portfolio](https://cmelby.github.io/portfolio/)
